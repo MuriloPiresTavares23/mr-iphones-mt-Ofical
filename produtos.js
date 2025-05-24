@@ -1,13 +1,14 @@
 
 // Configuração do Firebase (Troque pelas suas credenciais)
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMINIO.firebaseapp.com",
-  databaseURL: "https://SEU_DOMINIO.firebaseio.com",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_BUCKET.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SUA_APP_ID"
+  const firebaseConfig = {
+  apiKey: "AIzaSyDsIWsBTtP7YiIYw0a1Reru3XFA9wajP9k",
+  authDomain: "mr-iphones-mt-catalogo.firebaseapp.com",
+  projectId: "mr-iphones-mt-catalogo",
+  storageBucket: "mr-iphones-mt-catalogo.firebasestorage.app",
+  messagingSenderId: "231517888492",
+  appId: "1:231517888492:web:b12539a232484248e52ac9",
+  measurementId: "G-4ZVCJET8BY"
 };
 
 firebase.initializeApp(firebaseConfig);
